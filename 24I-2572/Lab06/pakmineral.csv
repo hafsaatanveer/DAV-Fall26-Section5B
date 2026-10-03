@@ -1,0 +1,601 @@
+OrderID,OrderDate,ImportPort,Region,City,ProductCategory,OriginCountry,UnitPrice,QuantitySold,Discount,CustomerRating,DeliveryStatus
+PMT-1001,2024-01-01,Karachi Port,Punjab,Lahore,Rock Phosphate,Morocco,39900,10,0.05,3,Late
+PMT-1002,2024-01-02,Port Qasim,Punjab,Multan,Rock Phosphate,Morocco,38400,6,0.05,5,Delivered
+PMT-1003,2024-01-02,Karachi Port,Khyber Pakhtunkhwa,Abbottabad,Bauxite,Australia,21200,4,0.0,4,Delivered
+PMT-1004,2024-01-02,Port Qasim,Punjab,Faisalabad,Rock Phosphate,Jordan,42400,3,0.0,5,Delivered
+PMT-1005,2024-01-02,Karachi Port,Balochistan,Quetta,Bauxite,Australia,21300,4,0.0,3,Delivered
+PMT-1006,2024-01-03,Karachi Port,Khyber Pakhtunkhwa,Abbottabad,Iron Ore,Australia,32200,6,0.05,4,Delivered
+PMT-1007,2024-01-04,Karachi Port,Punjab,Rawalpindi,Soda Ash,China,47400,9,0.05,4,Delivered
+PMT-1008,2024-01-04,Karachi Port,Balochistan,Gwadar,Coal,South Africa,45400,6,0.05,4,Delivered
+PMT-1009,2024-01-05,Port Qasim,Punjab,Rawalpindi,Bauxite,Australia,23200,3,0.0,1,Late
+PMT-1010,2024-01-06,Karachi Port,Balochistan,Quetta,Soda Ash,Turkey,51400,10,0.05,5,Delivered
+PMT-1011,2024-01-06,Karachi Port,Balochistan,Gwadar,Soda Ash,China,50500,6,0.05,4,Delivered
+PMT-1012,2024-01-06,Port Qasim,Sindh,Karachi,Rock Phosphate,Morocco,46700,4,0.0,5,Delivered
+PMT-1013,2024-01-07,Port Qasim,Punjab,Multan,Rock Phosphate,Jordan,38000,13,0.15,1,Late
+PMT-1014,2024-01-08,Gwadar Port,Balochistan,Quetta,Copper Concentrate,Peru,214000,20,0.05,4,Delivered
+PMT-1015,2024-01-08,Port Qasim,Punjab,Multan,Coal,Indonesia,48100,22,0.05,5,Delivered
+PMT-1016,2024-01-08,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Coal,South Africa,41700,3,0.05,1,Late
+PMT-1017,2024-01-09,Port Qasim,Sindh,Hyderabad,Bauxite,Guinea,20500,21,0.1,2,Late
+PMT-1018,2024-01-09,Port Qasim,Sindh,Sukkur,Iron Ore,Brazil,28900,2,0.05,3,Delivered
+PMT-1019,2024-01-09,Port Qasim,Punjab,Faisalabad,Copper Concentrate,Chile,240200,7,0.05,4,Delivered
+PMT-1020,2024-01-12,Karachi Port,Balochistan,Gwadar,Coal,Indonesia,48000,15,0.2,5,Delivered
+PMT-1021,2024-01-12,Port Qasim,Sindh,Sukkur,Coal,South Africa,44800,3,0.0,3,Delivered
+PMT-1022,2024-01-12,Port Qasim,Punjab,Lahore,Iron Ore,Brazil,29900,7,0.05,3,Delivered
+PMT-1023,2024-01-12,Port Qasim,Sindh,Karachi,Copper Concentrate,Chile,244600,3,0.0,1,Late
+PMT-1024,2024-01-13,Karachi Port,Punjab,Multan,Iron Ore,Australia,31800,8,0.05,3,Delivered
+PMT-1025,2024-01-13,Port Qasim,Sindh,Karachi,Rock Phosphate,Morocco,44200,2,0.05,5,Delivered
+PMT-1026,2024-01-14,Karachi Port,Punjab,Faisalabad,Rock Phosphate,Morocco,43300,3,0.0,2,Delivered
+PMT-1027,2024-01-14,Gwadar Port,Balochistan,Quetta,Rock Phosphate,Morocco,40400,4,0.05,4,Delivered
+PMT-1028,2024-01-15,Karachi Port,Punjab,Rawalpindi,Iron Ore,Australia,26200,15,0.1,3,Delivered
+PMT-1029,2024-01-17,Port Qasim,Punjab,Rawalpindi,Copper Concentrate,Chile,234100,5,0.05,5,Delivered
+PMT-1030,2024-01-17,Port Qasim,Sindh,Karachi,Iron Ore,Brazil,30400,2,0.05,5,Delivered
+PMT-1031,2024-01-18,Karachi Port,Balochistan,Quetta,Bauxite,Guinea,20000,29,0.05,4,Delivered
+PMT-1032,2024-01-18,Port Qasim,Sindh,Karachi,Iron Ore,Australia,26300,9,0.0,3,Late
+PMT-1033,2024-01-19,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Rock Phosphate,Morocco,46600,12,0.2,4,Delivered
+PMT-1034,2024-01-21,Karachi Port,Balochistan,Quetta,Rock Phosphate,Morocco,44900,28,0.15,4,Delivered
+PMT-1035,2024-01-22,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Copper Concentrate,Chile,206800,6,0.05,4,Delivered
+PMT-1036,2024-01-22,Gwadar Port,Balochistan,Quetta,Rock Phosphate,Jordan,39400,10,0.05,3,Delivered
+PMT-1037,2024-01-22,Port Qasim,Khyber Pakhtunkhwa,Abbottabad,Soda Ash,China,41600,4,0.0,3,Late
+PMT-1038,2024-01-22,Gwadar Port,Balochistan,Quetta,Soda Ash,Turkey,44300,7,0.05,5,Delivered
+PMT-1039,2024-01-23,Karachi Port,Punjab,Lahore,Soda Ash,Turkey,50100,5,0.0,2,Delivered
+PMT-1040,2024-01-23,Port Qasim,Sindh,Sukkur,Copper Concentrate,Peru,210100,8,0.0,5,Delivered
+PMT-1041,2024-01-25,Port Qasim,Sindh,Karachi,Iron Ore,Brazil,30500,4,0.0,4,Late
+PMT-1042,2024-01-26,Gwadar Port,Balochistan,Quetta,Bauxite,Guinea,20900,18,0.15,4,Late
+PMT-1043,2024-01-29,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Copper Concentrate,Peru,224100,17,0.1,4,Delivered
+PMT-1044,2024-01-30,Port Qasim,Punjab,Faisalabad,Rock Phosphate,Jordan,39900,12,0.2,5,Delivered
+PMT-1045,2024-01-31,Karachi Port,Balochistan,Quetta,Coal,South Africa,41100,7,0.0,3,Delivered
+PMT-1046,2024-01-31,Karachi Port,Punjab,Lahore,Coal,Indonesia,44300,3,0.0,1,Late
+PMT-1047,2024-01-31,Karachi Port,Punjab,Rawalpindi,Coal,South Africa,40800,15,0.15,3,Delivered
+PMT-1048,2024-01-31,Port Qasim,Sindh,Karachi,Rock Phosphate,Morocco,37900,6,0.0,3,Delivered
+PMT-1049,2024-01-31,Gwadar Port,Balochistan,Gwadar,Soda Ash,Turkey,50000,5,0.05,5,Delivered
+PMT-1050,2024-01-31,Karachi Port,Sindh,Hyderabad,Soda Ash,Turkey,46300,3,0.0,4,Delivered
+PMT-1051,2024-02-01,Port Qasim,Sindh,Karachi,Soda Ash,Turkey,47500,10,0.0,4,Late
+PMT-1052,2024-02-02,Karachi Port,Sindh,Karachi,Iron Ore,Australia,30300,15,0.2,5,Delivered
+PMT-1053,2024-02-02,Karachi Port,Sindh,Karachi,Coal,Afghanistan,45800,9,0.0,4,Delivered
+PMT-1054,2024-02-05,Port Qasim,Sindh,Karachi,Coal,South Africa,45300,15,0.2,3,Delivered
+PMT-1055,2024-02-05,Port Qasim,Khyber Pakhtunkhwa,Abbottabad,Copper Concentrate,Peru,240000,2,0.05,4,Delivered
+PMT-1056,2024-02-06,Karachi Port,Sindh,Karachi,Rock Phosphate,Morocco,45000,2,0.05,3,Late
+PMT-1057,2024-02-06,Port Qasim,Punjab,Rawalpindi,Bauxite,Australia,19800,6,0.0,5,Delivered
+PMT-1058,2024-02-06,Port Qasim,Sindh,Karachi,Iron Ore,Australia,30000,14,0.1,4,Delivered
+PMT-1059,2024-02-07,Karachi Port,Punjab,Rawalpindi,Rock Phosphate,Jordan,40100,11,0.15,2,Cancelled
+PMT-1060,2024-02-08,Karachi Port,Punjab,Rawalpindi,Coal,South Africa,44700,5,0.05,2,Late
+PMT-1061,2024-02-09,Karachi Port,Punjab,Rawalpindi,Iron Ore,Brazil,31400,7,0.0,5,Delivered
+PMT-1062,2024-02-09,Port Qasim,Punjab,Rawalpindi,Copper Concentrate,Peru,215000,4,0.0,4,Delivered
+PMT-1063,2024-02-10,Karachi Port,Punjab,Faisalabad,Coal,South Africa,47700,5,0.05,3,Late
+PMT-1064,2024-02-11,Port Qasim,Sindh,Hyderabad,Bauxite,Guinea,21400,7,0.05,5,Delivered
+PMT-1065,2024-02-11,Karachi Port,Sindh,Karachi,Copper Concentrate,Chile,204600,13,0.05,5,Delivered
+PMT-1066,2024-02-12,Port Qasim,Sindh,Karachi,Rock Phosphate,Jordan,41100,4,0.0,5,Delivered
+PMT-1067,2024-02-12,Gwadar Port,Balochistan,Quetta,Bauxite,Guinea,20300,10,0.0,5,Delivered
+PMT-1068,2024-02-12,Port Qasim,Punjab,Multan,Copper Concentrate,Chile,248300,13,0.1,4,Delivered
+PMT-1069,2024-02-15,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Soda Ash,China,42700,18,0.2,5,Delivered
+PMT-1070,2024-02-16,Port Qasim,Sindh,Hyderabad,Iron Ore,Australia,29100,10,0.0,5,Delivered
+PMT-1071,2024-02-16,Port Qasim,Punjab,Lahore,Iron Ore,Brazil,26600,9,0.05,5,Delivered
+PMT-1072,2024-02-17,Port Qasim,Sindh,Sukkur,Iron Ore,Brazil,31300,13,0.1,2,Cancelled
+PMT-1073,2024-02-19,Port Qasim,Punjab,Faisalabad,Coal,Afghanistan,41600,5,0.0,3,Delivered
+PMT-1074,2024-02-19,Karachi Port,Sindh,Karachi,Copper Concentrate,Chile,216000,35,0.2,1,Late
+PMT-1075,2024-02-19,Port Qasim,Sindh,Karachi,Rock Phosphate,Jordan,42800,6,0.05,5,Delivered
+PMT-1076,2024-02-20,Karachi Port,Khyber Pakhtunkhwa,Abbottabad,Rock Phosphate,Morocco,39600,3,0.05,4,Delivered
+PMT-1077,2024-02-20,Karachi Port,Sindh,Karachi,Soda Ash,China,47500,16,0.2,4,Delivered
+PMT-1078,2024-02-21,Karachi Port,Sindh,Karachi,Coal,South Africa,43200,2,0.0,5,Delivered
+PMT-1079,2024-02-22,Karachi Port,Punjab,Lahore,Soda Ash,China,41800,8,0.05,1,Late
+PMT-1080,2024-02-23,Karachi Port,Sindh,Sukkur,Bauxite,Guinea,21300,2,0.0,4,Delivered
+PMT-1081,2024-02-23,Karachi Port,Sindh,Karachi,Soda Ash,China,43700,14,0.15,5,Delivered
+PMT-1082,2024-02-24,Karachi Port,Balochistan,Quetta,Copper Concentrate,Peru,225600,8,0.05,3,Delivered
+PMT-1083,2024-02-26,Port Qasim,Punjab,Rawalpindi,Bauxite,Australia,21800,6,0.05,5,Delivered
+PMT-1084,2024-02-26,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Rock Phosphate,Morocco,43000,7,0.05,5,Delivered
+PMT-1085,2024-02-26,Karachi Port,Punjab,Multan,Copper Concentrate,Peru,247200,3,0.05,5,Delivered
+PMT-1086,2024-02-27,Karachi Port,Punjab,Lahore,Bauxite,Guinea,21200,5,0.05,4,Delivered
+PMT-1087,2024-02-27,Port Qasim,Punjab,Rawalpindi,Soda Ash,China,45200,6,0.05,5,Delivered
+PMT-1088,2024-02-27,Karachi Port,Sindh,Karachi,Soda Ash,Turkey,49700,2,0.0,5,Delivered
+PMT-1089,2024-02-28,Karachi Port,Khyber Pakhtunkhwa,Abbottabad,Copper Concentrate,Peru,224800,28,0.2,4,Delivered
+PMT-1090,2024-02-28,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Soda Ash,Turkey,45700,8,0.05,5,Delivered
+PMT-1091,2024-02-28,Karachi Port,Punjab,Lahore,Copper Concentrate,Chile,207900,10,0.05,4,Delivered
+PMT-1092,2024-02-29,Karachi Port,Sindh,Karachi,Rock Phosphate,Jordan,42600,2,0.05,4,Delivered
+PMT-1093,2024-02-29,Karachi Port,Punjab,Lahore,Coal,South Africa,45300,10,0.0,5,Delivered
+PMT-1094,2024-02-29,Port Qasim,Sindh,Hyderabad,Copper Concentrate,Chile,211700,12,0.2,4,Delivered
+PMT-1095,2024-02-29,Karachi Port,Khyber Pakhtunkhwa,Abbottabad,Coal,South Africa,39500,3,0.0,5,Delivered
+PMT-1096,2024-02-29,Port Qasim,Punjab,Faisalabad,Copper Concentrate,Chile,243800,7,0.0,3,Delivered
+PMT-1097,2024-03-02,Gwadar Port,Balochistan,Quetta,Soda Ash,China,45400,40,0.2,2,Late
+PMT-1098,2024-03-02,Karachi Port,Punjab,Faisalabad,Coal,South Africa,47800,6,0.0,3,Delivered
+PMT-1099,2024-03-03,Karachi Port,Sindh,Hyderabad,Bauxite,Australia,20900,16,0.15,5,Delivered
+PMT-1100,2024-03-03,Port Qasim,Punjab,Rawalpindi,Soda Ash,Turkey,43200,6,0.0,3,Late
+PMT-1101,2024-03-04,Karachi Port,Punjab,Faisalabad,Copper Concentrate,Chile,212400,8,0.0,4,Delivered
+PMT-1102,2024-03-05,Karachi Port,Punjab,Lahore,Iron Ore,Brazil,29600,9,0.05,4,Delivered
+PMT-1103,2024-03-05,Karachi Port,Sindh,Hyderabad,Bauxite,Guinea,22400,9,0.0,4,Delivered
+PMT-1104,2024-03-05,Karachi Port,Balochistan,Gwadar,Coal,Indonesia,47400,7,0.05,5,Delivered
+PMT-1105,2024-03-06,Port Qasim,Punjab,Multan,Soda Ash,China,50200,3,0.0,1,Late
+PMT-1106,2024-03-07,Port Qasim,Punjab,Rawalpindi,Coal,South Africa,48000,4,0.05,4,Delivered
+PMT-1107,2024-03-08,Port Qasim,Punjab,Multan,Copper Concentrate,Chile,248300,7,0.05,4,Delivered
+PMT-1108,2024-03-08,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Coal,South Africa,39100,5,0.0,2,Late
+PMT-1109,2024-03-08,Karachi Port,Punjab,Faisalabad,Copper Concentrate,Chile,229600,9,0.05,5,Delivered
+PMT-1110,2024-03-09,Karachi Port,Sindh,Karachi,Copper Concentrate,Peru,237100,18,0.15,2,Delivered
+PMT-1111,2024-03-10,Karachi Port,Punjab,Rawalpindi,Iron Ore,Brazil,29900,6,0.05,4,Delivered
+PMT-1112,2024-03-11,Karachi Port,Balochistan,Gwadar,Copper Concentrate,Peru,240600,8,0.05,3,Delivered
+PMT-1113,2024-03-12,Port Qasim,Punjab,Faisalabad,Coal,South Africa,45200,7,0.0,4,Delivered
+PMT-1114,2024-03-12,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Coal,South Africa,47200,5,0.05,3,Delivered
+PMT-1115,2024-03-12,Port Qasim,Sindh,Karachi,Copper Concentrate,Chile,226500,10,0.0,4,Delivered
+PMT-1116,2024-03-13,Gwadar Port,Balochistan,Gwadar,Rock Phosphate,Morocco,41500,4,0.0,2,Cancelled
+PMT-1117,2024-03-14,Port Qasim,Sindh,Hyderabad,Bauxite,Australia,20900,38,0.1,4,Delivered
+PMT-1118,2024-03-15,Gwadar Port,Balochistan,Quetta,Iron Ore,Australia,28700,7,0.0,2,Late
+PMT-1119,2024-03-15,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Soda Ash,Turkey,48900,10,0.0,4,Late
+PMT-1120,2024-03-15,Gwadar Port,Balochistan,Quetta,Rock Phosphate,Morocco,46700,17,0.15,2,Late
+PMT-1121,2024-03-15,Port Qasim,Sindh,Karachi,Coal,Afghanistan,45000,3,0.0,4,Delivered
+PMT-1122,2024-03-16,Gwadar Port,Balochistan,Quetta,Copper Concentrate,Chile,243900,18,0.1,3,Delivered
+PMT-1123,2024-03-17,Port Qasim,Sindh,Karachi,Soda Ash,Turkey,49000,15,0.2,2,Delivered
+PMT-1124,2024-03-17,Karachi Port,Balochistan,Quetta,Soda Ash,China,45100,2,0.05,5,Delivered
+PMT-1125,2024-03-18,Port Qasim,Sindh,Hyderabad,Bauxite,Australia,22200,6,0.0,2,Late
+PMT-1126,2024-03-18,Gwadar Port,Balochistan,Gwadar,Copper Concentrate,Chile,216400,4,0.05,3,Delivered
+PMT-1127,2024-03-19,Port Qasim,Sindh,Karachi,Coal,South Africa,43600,3,0.05,2,Late
+PMT-1128,2024-03-19,Karachi Port,Sindh,Sukkur,Bauxite,Guinea,20200,9,0.0,2,Delivered
+PMT-1129,2024-03-19,Port Qasim,Punjab,Lahore,Bauxite,Guinea,24500,3,0.0,4,Late
+PMT-1130,2024-03-22,Port Qasim,Sindh,Hyderabad,Bauxite,Australia,23000,10,0.0,4,Delivered
+PMT-1131,2024-03-22,Karachi Port,Punjab,Rawalpindi,Copper Concentrate,Peru,212000,12,0.2,5,Delivered
+PMT-1132,2024-03-23,Gwadar Port,Balochistan,Quetta,Iron Ore,Brazil,28300,9,0.0,3,Late
+PMT-1133,2024-03-24,Port Qasim,Sindh,Karachi,Copper Concentrate,Chile,225000,16,0.1,5,Delivered
+PMT-1134,2024-03-24,Gwadar Port,Balochistan,Quetta,Copper Concentrate,Peru,233300,9,0.0,3,Delivered
+PMT-1135,2024-03-25,Karachi Port,Sindh,Karachi,Soda Ash,China,44300,9,0.0,1,Cancelled
+PMT-1136,2024-03-25,Port Qasim,Sindh,Sukkur,Copper Concentrate,Peru,219200,9,0.0,4,Delivered
+PMT-1137,2024-03-25,Port Qasim,Sindh,Hyderabad,Rock Phosphate,Morocco,43300,33,0.15,3,Late
+PMT-1138,2024-03-26,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Copper Concentrate,Chile,208300,4,0.0,4,Delivered
+PMT-1139,2024-03-27,Port Qasim,Punjab,Rawalpindi,Copper Concentrate,Peru,232600,9,0.0,5,Delivered
+PMT-1140,2024-03-27,Gwadar Port,Balochistan,Quetta,Copper Concentrate,Chile,207700,6,0.0,4,Delivered
+PMT-1141,2024-03-28,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Copper Concentrate,Peru,226400,12,0.2,5,Delivered
+PMT-1142,2024-03-28,Port Qasim,Punjab,Lahore,Coal,Indonesia,45300,8,0.05,5,Delivered
+PMT-1143,2024-03-28,Port Qasim,Punjab,Rawalpindi,Copper Concentrate,Chile,222200,4,0.05,2,Delivered
+PMT-1144,2024-03-29,Port Qasim,Punjab,Faisalabad,Bauxite,Guinea,20200,25,0.15,5,Delivered
+PMT-1145,2024-03-31,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Iron Ore,Brazil,29400,6,0.0,5,Delivered
+PMT-1146,2024-04-01,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Bauxite,Guinea,20800,40,0.05,3,Late
+PMT-1147,2024-04-01,Port Qasim,Punjab,Lahore,Rock Phosphate,Morocco,41700,6,0.05,2,Delivered
+PMT-1148,2024-04-02,Port Qasim,Punjab,Rawalpindi,Iron Ore,Brazil,30100,6,0.05,2,Delivered
+PMT-1149,2024-04-02,Port Qasim,Punjab,Lahore,Bauxite,Guinea,24500,8,0.0,4,Delivered
+PMT-1150,2024-04-02,Port Qasim,Punjab,Lahore,Rock Phosphate,Morocco,42800,4,0.05,3,Late
+PMT-1151,2024-04-02,Karachi Port,Sindh,Karachi,Coal,South Africa,43100,7,0.05,2,Delivered
+PMT-1152,2024-04-02,Port Qasim,Sindh,Sukkur,Iron Ore,Brazil,30900,4,0.05,3,Late
+PMT-1153,2024-04-03,Karachi Port,Sindh,Hyderabad,Soda Ash,China,48600,2,0.05,3,Delivered
+PMT-1154,2024-04-04,Port Qasim,Sindh,Karachi,Rock Phosphate,Morocco,38100,26,0.1,4,Delivered
+PMT-1155,2024-04-04,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Copper Concentrate,Peru,236900,7,0.05,4,Delivered
+PMT-1156,2024-04-05,Port Qasim,Sindh,Karachi,Coal,Indonesia,41600,16,0.2,5,Delivered
+PMT-1157,2024-04-05,Port Qasim,Sindh,Karachi,Coal,South Africa,41000,6,0.05,3,Delivered
+PMT-1158,2024-04-06,Karachi Port,Balochistan,Gwadar,Soda Ash,China,47600,10,0.05,1,Cancelled
+PMT-1159,2024-04-07,Karachi Port,Balochistan,Quetta,Bauxite,Australia,21200,3,0.0,4,Delivered
+PMT-1160,2024-04-07,Karachi Port,Balochistan,Quetta,Coal,Afghanistan,44800,3,0.05,3,Delivered
+PMT-1161,2024-04-07,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Iron Ore,Australia,28400,3,0.05,4,Delivered
+PMT-1162,2024-04-08,Karachi Port,Punjab,Multan,Copper Concentrate,Peru,218500,2,0.05,5,Delivered
+PMT-1163,2024-04-09,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Coal,Afghanistan,46100,2,0.05,1,Late
+PMT-1164,2024-04-09,Port Qasim,Sindh,Karachi,Rock Phosphate,Jordan,45800,11,0.1,4,Delivered
+PMT-1165,2024-04-10,Port Qasim,Sindh,Karachi,Rock Phosphate,Morocco,45500,6,0.0,2,Delivered
+PMT-1166,2024-04-10,Port Qasim,Punjab,Faisalabad,Coal,Afghanistan,42600,10,0.0,3,Late
+PMT-1167,2024-04-11,Port Qasim,Punjab,Faisalabad,Rock Phosphate,Morocco,47000,10,0.0,1,Cancelled
+PMT-1168,2024-04-11,Port Qasim,Sindh,Karachi,Soda Ash,Turkey,46300,17,0.2,4,Delivered
+PMT-1169,2024-04-11,Karachi Port,Punjab,Faisalabad,Rock Phosphate,Morocco,45200,26,0.15,2,Cancelled
+PMT-1170,2024-04-12,Karachi Port,Punjab,Multan,Iron Ore,Australia,28800,6,0.05,2,Delivered
+PMT-1171,2024-04-13,Karachi Port,Balochistan,Gwadar,Rock Phosphate,Morocco,40500,5,0.05,3,Delivered
+PMT-1172,2024-04-14,Port Qasim,Sindh,Hyderabad,Iron Ore,Brazil,32400,9,0.0,3,Delivered
+PMT-1173,2024-04-14,Port Qasim,Punjab,Lahore,Soda Ash,China,46800,5,0.0,5,Delivered
+PMT-1174,2024-04-15,Karachi Port,Sindh,Karachi,Soda Ash,Turkey,42400,4,0.05,5,Delivered
+PMT-1175,2024-04-16,Karachi Port,Sindh,Karachi,Bauxite,Australia,23500,17,0.15,4,Delivered
+PMT-1176,2024-04-16,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Coal,Indonesia,40200,7,0.0,5,Delivered
+PMT-1177,2024-04-17,Port Qasim,Sindh,Karachi,Bauxite,Guinea,23400,9,0.05,2,Cancelled
+PMT-1178,2024-04-20,Karachi Port,Sindh,Hyderabad,Copper Concentrate,Peru,205400,10,0.0,4,Delivered
+PMT-1179,2024-04-20,Karachi Port,Punjab,Multan,Bauxite,Guinea,23400,19,0.2,5,Delivered
+PMT-1180,2024-04-21,Gwadar Port,Balochistan,Quetta,Iron Ore,Australia,30600,4,0.05,3,Delivered
+PMT-1181,2024-04-22,Karachi Port,Punjab,Faisalabad,Copper Concentrate,Peru,234700,11,0.15,4,Delivered
+PMT-1182,2024-04-22,Karachi Port,Punjab,Multan,Coal,Indonesia,43500,8,0.05,3,Delivered
+PMT-1183,2024-04-23,Port Qasim,Khyber Pakhtunkhwa,Abbottabad,Bauxite,Australia,22900,4,0.05,4,Delivered
+PMT-1184,2024-04-23,Gwadar Port,Balochistan,Quetta,Rock Phosphate,Jordan,44500,2,0.0,5,Delivered
+PMT-1185,2024-04-24,Gwadar Port,Balochistan,Quetta,Bauxite,Australia,20100,17,0.15,1,Late
+PMT-1186,2024-04-25,Karachi Port,Sindh,Hyderabad,Coal,South Africa,47700,18,0.15,5,Delivered
+PMT-1187,2024-04-27,Karachi Port,Sindh,Karachi,Soda Ash,Turkey,48800,9,0.05,4,Delivered
+PMT-1188,2024-04-28,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Soda Ash,Turkey,43200,6,0.0,2,Cancelled
+PMT-1189,2024-04-28,Karachi Port,Balochistan,Gwadar,Coal,Afghanistan,40500,7,0.0,5,Delivered
+PMT-1190,2024-04-28,Karachi Port,Punjab,Faisalabad,Soda Ash,Turkey,42500,13,0.1,1,Late
+PMT-1191,2024-04-29,Karachi Port,Sindh,Hyderabad,Soda Ash,China,45600,6,0.0,4,Delivered
+PMT-1192,2024-04-29,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Iron Ore,Brazil,31300,8,0.0,1,Cancelled
+PMT-1193,2024-05-01,Port Qasim,Sindh,Karachi,Soda Ash,China,42500,18,0.1,1,Cancelled
+PMT-1194,2024-05-02,Gwadar Port,Balochistan,Gwadar,Soda Ash,China,43800,12,0.15,5,Delivered
+PMT-1195,2024-05-02,Karachi Port,Punjab,Lahore,Bauxite,Australia,20400,3,0.05,5,Delivered
+PMT-1196,2024-05-03,Karachi Port,Balochistan,Gwadar,Rock Phosphate,Jordan,46800,10,0.0,3,Delivered
+PMT-1197,2024-05-03,Karachi Port,Balochistan,Quetta,Bauxite,Australia,23000,6,0.0,3,Delivered
+PMT-1198,2024-05-06,Port Qasim,Sindh,Karachi,Soda Ash,Turkey,45200,16,0.05,5,Delivered
+PMT-1199,2024-05-06,Karachi Port,Balochistan,Quetta,Coal,South Africa,47800,38,0.15,4,Delivered
+PMT-1200,2024-05-07,Port Qasim,Punjab,Lahore,Copper Concentrate,Peru,207200,6,0.05,2,Cancelled
+PMT-1201,2024-05-07,Karachi Port,Sindh,Karachi,Rock Phosphate,Jordan,43400,23,0.2,4,Delivered
+PMT-1202,2024-05-08,Karachi Port,Sindh,Karachi,Bauxite,Australia,21700,5,0.0,4,Delivered
+PMT-1203,2024-05-09,Karachi Port,Punjab,Rawalpindi,Bauxite,Australia,24400,15,0.05,4,Delivered
+PMT-1204,2024-05-10,Karachi Port,Sindh,Karachi,Rock Phosphate,Morocco,42400,34,0.1,4,Delivered
+PMT-1205,2024-05-10,Port Qasim,Punjab,Lahore,Iron Ore,Australia,27500,3,0.0,3,Delivered
+PMT-1206,2024-05-10,Port Qasim,Punjab,Rawalpindi,Coal,Indonesia,45500,3,0.05,5,Delivered
+PMT-1207,2024-05-10,Port Qasim,Punjab,Multan,Copper Concentrate,Peru,248600,2,0.05,4,Delivered
+PMT-1208,2024-05-10,Port Qasim,Punjab,Lahore,Bauxite,Guinea,24600,8,0.0,3,Delivered
+PMT-1209,2024-05-11,Karachi Port,Sindh,Karachi,Bauxite,Guinea,22700,6,0.05,5,Delivered
+PMT-1210,2024-05-11,Port Qasim,Khyber Pakhtunkhwa,Abbottabad,Copper Concentrate,Peru,219900,9,0.05,5,Delivered
+PMT-1211,2024-05-13,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Soda Ash,Turkey,50500,6,0.05,2,Late
+PMT-1212,2024-05-13,Karachi Port,Balochistan,Gwadar,Rock Phosphate,Jordan,38000,6,0.0,3,Delivered
+PMT-1213,2024-05-13,Port Qasim,Punjab,Rawalpindi,Rock Phosphate,Morocco,42700,7,0.0,3,Delivered
+PMT-1214,2024-05-13,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Copper Concentrate,Chile,205100,9,0.05,5,Delivered
+PMT-1215,2024-05-13,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Rock Phosphate,Morocco,39700,9,0.0,1,Late
+PMT-1216,2024-05-14,Karachi Port,Punjab,Lahore,Rock Phosphate,Morocco,43500,3,0.0,2,Late
+PMT-1217,2024-05-15,Port Qasim,Khyber Pakhtunkhwa,Abbottabad,Coal,South Africa,39300,4,0.05,2,Cancelled
+PMT-1218,2024-05-15,Gwadar Port,Balochistan,Gwadar,Coal,South Africa,43300,15,0.2,3,Late
+PMT-1219,2024-05-15,Karachi Port,Sindh,Karachi,Copper Concentrate,Chile,212000,7,0.0,3,Late
+PMT-1220,2024-05-15,Karachi Port,Sindh,Karachi,Soda Ash,China,50500,21,0.2,4,Late
+PMT-1221,2024-05-15,Port Qasim,Punjab,Multan,Copper Concentrate,Chile,203100,12,0.2,1,Late
+PMT-1222,2024-05-16,Port Qasim,Sindh,Karachi,Iron Ore,Australia,30000,4,0.05,3,Delivered
+PMT-1223,2024-05-17,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Rock Phosphate,Jordan,37800,3,0.05,3,Delivered
+PMT-1224,2024-05-19,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Soda Ash,Turkey,49600,8,0.0,3,Delivered
+PMT-1225,2024-05-19,Karachi Port,Punjab,Multan,Bauxite,Guinea,23300,9,0.0,5,Delivered
+PMT-1226,2024-05-19,Karachi Port,Sindh,Karachi,Copper Concentrate,Chile,246900,3,0.05,4,Delivered
+PMT-1227,2024-05-20,Port Qasim,Punjab,Multan,Iron Ore,Australia,32300,5,0.05,4,Delivered
+PMT-1228,2024-05-21,Karachi Port,Sindh,Karachi,Iron Ore,Australia,27800,7,0.05,3,Delivered
+PMT-1229,2024-05-21,Karachi Port,Sindh,Karachi,Bauxite,Australia,20800,4,0.0,4,Delivered
+PMT-1230,2024-05-22,Karachi Port,Punjab,Multan,Coal,South Africa,47900,6,0.0,4,Delivered
+PMT-1231,2024-05-23,Karachi Port,Sindh,Karachi,Coal,South Africa,44200,10,0.05,3,Late
+PMT-1232,2024-05-23,Port Qasim,Sindh,Karachi,Soda Ash,China,44500,7,0.05,5,Delivered
+PMT-1233,2024-05-26,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Copper Concentrate,Chile,248000,13,0.15,4,Delivered
+PMT-1234,2024-05-27,Karachi Port,Sindh,Karachi,Soda Ash,China,49400,2,0.0,4,Delivered
+PMT-1235,2024-05-28,Karachi Port,Punjab,Rawalpindi,Soda Ash,China,43900,8,0.0,5,Delivered
+PMT-1236,2024-05-29,Karachi Port,Sindh,Karachi,Rock Phosphate,Morocco,44000,17,0.05,1,Cancelled
+PMT-1237,2024-05-30,Port Qasim,Punjab,Faisalabad,Iron Ore,Australia,30100,4,0.0,4,Delivered
+PMT-1238,2024-05-30,Port Qasim,Sindh,Karachi,Rock Phosphate,Jordan,43500,5,0.0,3,Late
+PMT-1239,2024-05-31,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Iron Ore,Brazil,29200,7,0.05,3,Delivered
+PMT-1240,2024-05-31,Gwadar Port,Balochistan,Gwadar,Coal,Indonesia,39900,6,0.0,3,Delivered
+PMT-1241,2024-06-01,Karachi Port,Sindh,Karachi,Coal,Indonesia,44400,3,0.0,3,Delivered
+PMT-1242,2024-06-02,Karachi Port,Punjab,Lahore,Rock Phosphate,Jordan,38900,7,0.05,5,Delivered
+PMT-1243,2024-06-03,Port Qasim,Sindh,Karachi,Iron Ore,Australia,29500,5,0.05,4,Delivered
+PMT-1244,2024-06-05,Gwadar Port,Balochistan,Quetta,Iron Ore,Australia,28200,3,0.05,4,Delivered
+PMT-1245,2024-06-05,Karachi Port,Balochistan,Gwadar,Iron Ore,Brazil,27500,2,0.0,5,Delivered
+PMT-1246,2024-06-06,Port Qasim,Punjab,Rawalpindi,Bauxite,Guinea,23300,2,0.0,2,Delivered
+PMT-1247,2024-06-06,Gwadar Port,Balochistan,Gwadar,Iron Ore,Australia,26800,3,0.05,3,Delivered
+PMT-1248,2024-06-08,Karachi Port,Sindh,Karachi,Coal,Afghanistan,46700,10,0.0,3,Cancelled
+PMT-1249,2024-06-09,Karachi Port,Punjab,Lahore,Bauxite,Guinea,21900,22,0.15,5,Delivered
+PMT-1250,2024-06-10,Port Qasim,Punjab,Lahore,Copper Concentrate,Chile,216200,6,0.0,3,Delivered
+PMT-1251,2024-06-11,Karachi Port,Balochistan,Quetta,Bauxite,Guinea,22300,2,0.05,5,Delivered
+PMT-1252,2024-06-14,Karachi Port,Punjab,Rawalpindi,Rock Phosphate,Morocco,41800,8,0.05,4,Late
+PMT-1253,2024-06-14,Port Qasim,Punjab,Faisalabad,Copper Concentrate,Chile,251400,2,0.0,4,Delivered
+PMT-1254,2024-06-15,Karachi Port,Sindh,Karachi,Bauxite,Guinea,24300,10,0.05,1,Late
+PMT-1255,2024-06-17,Karachi Port,Punjab,Rawalpindi,Soda Ash,Turkey,50400,2,0.05,1,Late
+PMT-1256,2024-06-17,Gwadar Port,Balochistan,Gwadar,Coal,Afghanistan,43300,10,0.0,3,Late
+PMT-1257,2024-06-17,Port Qasim,Punjab,Rawalpindi,Copper Concentrate,Peru,246200,6,0.05,3,Delivered
+PMT-1258,2024-06-18,Gwadar Port,Balochistan,Gwadar,Bauxite,Guinea,23600,7,0.05,1,Late
+PMT-1259,2024-06-18,Karachi Port,Balochistan,Quetta,Bauxite,Guinea,22400,8,0.05,2,Cancelled
+PMT-1260,2024-06-21,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Iron Ore,Brazil,28400,2,0.05,2,Delivered
+PMT-1261,2024-06-22,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Coal,Afghanistan,43900,26,0.1,2,Delivered
+PMT-1262,2024-06-22,Karachi Port,Punjab,Lahore,Bauxite,Guinea,20100,9,0.0,5,Delivered
+PMT-1263,2024-06-23,Port Qasim,Punjab,Faisalabad,Iron Ore,Australia,28700,8,0.0,1,Late
+PMT-1264,2024-06-24,Port Qasim,Sindh,Karachi,Rock Phosphate,Jordan,42500,8,0.05,4,Delivered
+PMT-1265,2024-06-24,Port Qasim,Khyber Pakhtunkhwa,Abbottabad,Bauxite,Guinea,21800,8,0.0,4,Delivered
+PMT-1266,2024-06-25,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Iron Ore,Brazil,26500,8,0.0,3,Delivered
+PMT-1267,2024-06-26,Gwadar Port,Balochistan,Quetta,Iron Ore,Brazil,27200,9,0.05,5,Delivered
+PMT-1268,2024-06-26,Port Qasim,Punjab,Rawalpindi,Copper Concentrate,Peru,207800,9,0.05,4,Delivered
+PMT-1269,2024-06-27,Karachi Port,Punjab,Multan,Soda Ash,Turkey,45800,6,0.0,5,Delivered
+PMT-1270,2024-06-28,Port Qasim,Punjab,Rawalpindi,Iron Ore,Australia,29200,2,0.0,5,Delivered
+PMT-1271,2024-06-29,Port Qasim,Sindh,Sukkur,Bauxite,Australia,21600,24,0.1,3,Delivered
+PMT-1272,2024-06-29,Port Qasim,Punjab,Faisalabad,Iron Ore,Australia,29100,24,0.1,4,Delivered
+PMT-1273,2024-06-29,Karachi Port,Punjab,Faisalabad,Copper Concentrate,Chile,224000,2,0.05,5,Delivered
+PMT-1274,2024-06-29,Karachi Port,Sindh,Karachi,Bauxite,Australia,20300,7,0.05,5,Delivered
+PMT-1275,2024-06-29,Karachi Port,Punjab,Rawalpindi,Iron Ore,Australia,26300,9,0.05,2,Cancelled
+PMT-1276,2024-07-01,Karachi Port,Punjab,Lahore,Rock Phosphate,Morocco,46500,3,0.0,2,Late
+PMT-1277,2024-07-02,Port Qasim,Sindh,Karachi,Bauxite,Guinea,24000,8,0.05,4,Delivered
+PMT-1278,2024-07-02,Port Qasim,Punjab,Lahore,Soda Ash,Turkey,48400,18,0.2,3,Delivered
+PMT-1279,2024-07-02,Port Qasim,Sindh,Sukkur,Rock Phosphate,Morocco,39400,20,0.15,4,Delivered
+PMT-1280,2024-07-02,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Rock Phosphate,Jordan,42900,3,0.0,5,Delivered
+PMT-1281,2024-07-03,Port Qasim,Sindh,Karachi,Coal,South Africa,38800,10,0.05,4,Delivered
+PMT-1282,2024-07-03,Karachi Port,Sindh,Karachi,Soda Ash,China,48300,3,0.0,1,Cancelled
+PMT-1283,2024-07-03,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Iron Ore,Brazil,28200,2,0.0,4,Delivered
+PMT-1284,2024-07-03,Port Qasim,Sindh,Karachi,Coal,South Africa,41000,6,0.0,2,Cancelled
+PMT-1285,2024-07-04,Karachi Port,Punjab,Faisalabad,Bauxite,Guinea,23300,5,0.0,3,Delivered
+PMT-1286,2024-07-04,Karachi Port,Punjab,Rawalpindi,Rock Phosphate,Morocco,46300,9,0.05,4,Delivered
+PMT-1287,2024-07-05,Gwadar Port,Balochistan,Gwadar,Iron Ore,Australia,27600,29,0.1,2,Late
+PMT-1288,2024-07-05,Port Qasim,Sindh,Karachi,Bauxite,Australia,22400,3,0.0,4,Delivered
+PMT-1289,2024-07-06,Port Qasim,Sindh,Hyderabad,Rock Phosphate,Jordan,40500,11,0.05,1,Late
+PMT-1290,2024-07-07,Port Qasim,Khyber Pakhtunkhwa,Abbottabad,Bauxite,Australia,22400,4,0.0,5,Delivered
+PMT-1291,2024-07-07,Karachi Port,Punjab,Lahore,Bauxite,Australia,24400,5,0.05,2,Late
+PMT-1292,2024-07-08,Port Qasim,Punjab,Rawalpindi,Iron Ore,Brazil,31600,9,0.0,4,Delivered
+PMT-1293,2024-07-08,Port Qasim,Sindh,Karachi,Coal,South Africa,40000,6,0.0,3,Delivered
+PMT-1294,2024-07-08,Karachi Port,Punjab,Lahore,Copper Concentrate,Chile,235400,7,0.05,5,Delivered
+PMT-1295,2024-07-08,Port Qasim,Punjab,Rawalpindi,Rock Phosphate,Jordan,40000,10,0.0,3,Delivered
+PMT-1296,2024-07-08,Karachi Port,Punjab,Faisalabad,Copper Concentrate,Chile,238800,11,0.15,3,Late
+PMT-1297,2024-07-08,Karachi Port,Punjab,Faisalabad,Coal,South Africa,48100,9,0.05,4,Delivered
+PMT-1298,2024-07-08,Karachi Port,Punjab,Rawalpindi,Rock Phosphate,Morocco,39000,32,0.05,5,Delivered
+PMT-1299,2024-07-09,Karachi Port,Punjab,Rawalpindi,Iron Ore,Brazil,30800,25,0.05,4,Delivered
+PMT-1300,2024-07-10,Karachi Port,Punjab,Multan,Iron Ore,Australia,31800,14,0.1,4,Delivered
+PMT-1301,2024-07-10,Karachi Port,Balochistan,Quetta,Bauxite,Guinea,24300,6,0.0,4,Delivered
+PMT-1302,2024-07-10,Karachi Port,Sindh,Karachi,Bauxite,Guinea,20600,2,0.05,3,Late
+PMT-1303,2024-07-12,Karachi Port,Punjab,Rawalpindi,Bauxite,Guinea,24300,7,0.0,4,Delivered
+PMT-1304,2024-07-13,Gwadar Port,Balochistan,Gwadar,Soda Ash,China,48000,3,0.05,1,Cancelled
+PMT-1305,2024-07-13,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Rock Phosphate,Morocco,46000,2,0.0,3,Delivered
+PMT-1306,2024-07-13,Karachi Port,Sindh,Karachi,Copper Concentrate,Chile,218700,4,0.05,4,Delivered
+PMT-1307,2024-07-14,Karachi Port,Punjab,Faisalabad,Rock Phosphate,Morocco,38300,2,0.0,5,Delivered
+PMT-1308,2024-07-15,Gwadar Port,Balochistan,Gwadar,Copper Concentrate,Peru,211900,9,0.05,5,Delivered
+PMT-1309,2024-07-16,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Bauxite,Australia,20800,4,0.05,4,Delivered
+PMT-1310,2024-07-20,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Bauxite,Australia,20700,13,0.15,5,Delivered
+PMT-1311,2024-07-20,Karachi Port,Sindh,Karachi,Coal,South Africa,41600,7,0.0,2,Delivered
+PMT-1312,2024-07-21,Karachi Port,Sindh,Karachi,Bauxite,Guinea,21900,2,0.0,5,Delivered
+PMT-1313,2024-07-22,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Rock Phosphate,Jordan,43700,5,0.05,5,Delivered
+PMT-1314,2024-07-22,Karachi Port,Sindh,Sukkur,Copper Concentrate,Peru,216900,3,0.0,3,Late
+PMT-1315,2024-07-23,Port Qasim,Punjab,Lahore,Soda Ash,Turkey,42700,5,0.05,4,Delivered
+PMT-1316,2024-07-23,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Rock Phosphate,Morocco,38600,7,0.0,5,Delivered
+PMT-1317,2024-07-23,Karachi Port,Sindh,Karachi,Copper Concentrate,Chile,207400,3,0.0,1,Late
+PMT-1318,2024-07-25,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Copper Concentrate,Chile,209000,8,0.0,3,Late
+PMT-1319,2024-07-25,Karachi Port,Balochistan,Gwadar,Iron Ore,Australia,30200,4,0.05,4,Delivered
+PMT-1320,2024-07-30,Karachi Port,Sindh,Karachi,Copper Concentrate,Chile,227800,3,0.0,3,Delivered
+PMT-1321,2024-07-30,Gwadar Port,Balochistan,Quetta,Iron Ore,Australia,30300,11,0.15,5,Delivered
+PMT-1322,2024-07-31,Port Qasim,Punjab,Lahore,Soda Ash,China,46000,38,0.05,4,Delivered
+PMT-1323,2024-08-02,Karachi Port,Punjab,Multan,Soda Ash,Turkey,48700,15,0.05,5,Delivered
+PMT-1324,2024-08-05,Karachi Port,Balochistan,Quetta,Coal,South Africa,40300,7,0.05,3,Delivered
+PMT-1325,2024-08-05,Karachi Port,Punjab,Faisalabad,Copper Concentrate,Peru,220400,5,0.05,3,Delivered
+PMT-1326,2024-08-07,Karachi Port,Sindh,Sukkur,Iron Ore,Brazil,26400,6,0.05,4,Delivered
+PMT-1327,2024-08-07,Port Qasim,Punjab,Rawalpindi,Copper Concentrate,Chile,250000,2,0.0,5,Delivered
+PMT-1328,2024-08-08,Karachi Port,Punjab,Rawalpindi,Rock Phosphate,Jordan,41700,15,0.2,2,Late
+PMT-1329,2024-08-09,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Bauxite,Guinea,23600,8,0.0,4,Delivered
+PMT-1330,2024-08-09,Karachi Port,Balochistan,Gwadar,Copper Concentrate,Chile,235400,4,0.0,5,Delivered
+PMT-1331,2024-08-10,Karachi Port,Punjab,Faisalabad,Bauxite,Guinea,22300,3,0.0,3,Late
+PMT-1332,2024-08-10,Karachi Port,Punjab,Multan,Copper Concentrate,Peru,235700,8,0.05,2,Late
+PMT-1333,2024-08-10,Port Qasim,Punjab,Lahore,Iron Ore,Brazil,27900,9,0.0,5,Delivered
+PMT-1334,2024-08-11,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Coal,South Africa,44700,7,0.05,4,Delivered
+PMT-1335,2024-08-12,Port Qasim,Sindh,Karachi,Iron Ore,Brazil,28500,2,0.0,3,Delivered
+PMT-1336,2024-08-12,Port Qasim,Punjab,Rawalpindi,Bauxite,Guinea,22900,5,0.05,5,Delivered
+PMT-1337,2024-08-14,Port Qasim,Sindh,Sukkur,Soda Ash,Turkey,46300,8,0.0,3,Delivered
+PMT-1338,2024-08-14,Karachi Port,Punjab,Rawalpindi,Rock Phosphate,Jordan,41500,8,0.05,2,Late
+PMT-1339,2024-08-14,Karachi Port,Punjab,Rawalpindi,Copper Concentrate,Chile,213500,8,0.0,4,Delivered
+PMT-1340,2024-08-15,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Iron Ore,Australia,29000,8,0.05,4,Delivered
+PMT-1341,2024-08-16,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Rock Phosphate,Morocco,42500,19,0.15,1,Cancelled
+PMT-1342,2024-08-18,Karachi Port,Sindh,Sukkur,Soda Ash,China,42000,3,0.05,4,Delivered
+PMT-1343,2024-08-18,Karachi Port,Sindh,Hyderabad,Copper Concentrate,Chile,239200,2,0.0,5,Delivered
+PMT-1344,2024-08-19,Port Qasim,Punjab,Rawalpindi,Soda Ash,China,46400,33,0.1,5,Delivered
+PMT-1345,2024-08-19,Port Qasim,Punjab,Faisalabad,Iron Ore,Australia,28200,17,0.1,3,Delivered
+PMT-1346,2024-08-19,Port Qasim,Punjab,Faisalabad,Rock Phosphate,Jordan,40400,2,0.05,2,Delivered
+PMT-1347,2024-08-19,Port Qasim,Khyber Pakhtunkhwa,Abbottabad,Soda Ash,China,50400,3,0.05,5,Delivered
+PMT-1348,2024-08-20,Port Qasim,Sindh,Hyderabad,Soda Ash,Turkey,47800,9,0.0,2,Cancelled
+PMT-1349,2024-08-20,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Iron Ore,Brazil,31900,9,0.05,2,Late
+PMT-1350,2024-08-20,Karachi Port,Khyber Pakhtunkhwa,Abbottabad,Rock Phosphate,Morocco,40500,9,0.05,4,Delivered
+PMT-1351,2024-08-21,Karachi Port,Khyber Pakhtunkhwa,Abbottabad,Iron Ore,Australia,28200,4,0.05,4,Delivered
+PMT-1352,2024-08-24,Port Qasim,Punjab,Rawalpindi,Bauxite,Guinea,22100,8,0.0,5,Delivered
+PMT-1353,2024-08-25,Karachi Port,Punjab,Rawalpindi,Copper Concentrate,Peru,244900,5,0.0,3,Delivered
+PMT-1354,2024-08-27,Karachi Port,Sindh,Hyderabad,Soda Ash,Turkey,47200,8,0.05,5,Delivered
+PMT-1355,2024-08-28,Karachi Port,Punjab,Lahore,Iron Ore,Brazil,30100,11,0.2,5,Delivered
+PMT-1356,2024-08-28,Karachi Port,Punjab,Multan,Iron Ore,Brazil,26400,11,0.1,4,Delivered
+PMT-1357,2024-08-28,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Rock Phosphate,Morocco,42100,5,0.05,3,Delivered
+PMT-1358,2024-08-29,Port Qasim,Sindh,Hyderabad,Copper Concentrate,Chile,225500,9,0.0,3,Cancelled
+PMT-1359,2024-08-29,Karachi Port,Sindh,Karachi,Bauxite,Guinea,22000,14,0.2,4,Delivered
+PMT-1360,2024-08-29,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Copper Concentrate,Peru,247700,3,0.0,3,Delivered
+PMT-1361,2024-08-29,Karachi Port,Punjab,Rawalpindi,Soda Ash,China,44300,29,0.15,4,Delivered
+PMT-1362,2024-08-29,Karachi Port,Sindh,Karachi,Soda Ash,China,49300,7,0.0,2,Late
+PMT-1363,2024-08-30,Port Qasim,Punjab,Rawalpindi,Copper Concentrate,Peru,234500,6,0.0,5,Delivered
+PMT-1364,2024-08-31,Karachi Port,Punjab,Multan,Soda Ash,Turkey,51000,7,0.0,4,Delivered
+PMT-1365,2024-08-31,Port Qasim,Sindh,Karachi,Coal,Afghanistan,44400,3,0.05,3,Delivered
+PMT-1366,2024-09-01,Port Qasim,Punjab,Rawalpindi,Soda Ash,China,41600,8,0.0,4,Delivered
+PMT-1367,2024-09-02,Karachi Port,Balochistan,Quetta,Iron Ore,Brazil,30500,30,0.15,4,Late
+PMT-1368,2024-09-03,Karachi Port,Punjab,Multan,Soda Ash,China,44200,14,0.2,3,Delivered
+PMT-1369,2024-09-03,Karachi Port,Sindh,Hyderabad,Iron Ore,Australia,31300,11,0.05,5,Delivered
+PMT-1370,2024-09-04,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Rock Phosphate,Jordan,44000,10,0.05,3,Delivered
+PMT-1371,2024-09-04,Gwadar Port,Balochistan,Gwadar,Iron Ore,Australia,29600,8,0.0,3,Delivered
+PMT-1372,2024-09-04,Gwadar Port,Balochistan,Quetta,Bauxite,Australia,24400,6,0.0,2,Delivered
+PMT-1373,2024-09-04,Gwadar Port,Balochistan,Quetta,Coal,Afghanistan,41700,3,0.05,5,Delivered
+PMT-1374,2024-09-05,Karachi Port,Punjab,Lahore,Coal,South Africa,46100,7,0.0,5,Delivered
+PMT-1375,2024-09-07,Karachi Port,Balochistan,Quetta,Iron Ore,Australia,30600,18,0.05,3,Delivered
+PMT-1376,2024-09-08,Karachi Port,Sindh,Karachi,Bauxite,Guinea,23800,3,0.05,4,Delivered
+PMT-1377,2024-09-08,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Coal,Afghanistan,40600,14,0.15,5,Delivered
+PMT-1378,2024-09-08,Karachi Port,Sindh,Karachi,Soda Ash,Turkey,46800,11,0.05,4,Delivered
+PMT-1379,2024-09-09,Port Qasim,Punjab,Lahore,Coal,Afghanistan,44700,8,0.05,5,Delivered
+PMT-1380,2024-09-09,Port Qasim,Sindh,Karachi,Soda Ash,China,47000,39,0.2,5,Delivered
+PMT-1381,2024-09-09,Karachi Port,Sindh,Hyderabad,Copper Concentrate,Peru,220800,27,0.05,2,Delivered
+PMT-1382,2024-09-10,Karachi Port,Sindh,Hyderabad,Coal,Afghanistan,45400,29,0.1,3,Late
+PMT-1383,2024-09-11,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Bauxite,Australia,24500,8,0.05,3,Delivered
+PMT-1384,2024-09-11,Karachi Port,Sindh,Hyderabad,Soda Ash,Turkey,41700,17,0.05,5,Delivered
+PMT-1385,2024-09-11,Karachi Port,Punjab,Lahore,Copper Concentrate,Peru,250600,13,0.05,5,Delivered
+PMT-1386,2024-09-12,Karachi Port,Sindh,Hyderabad,Copper Concentrate,Chile,237900,4,0.05,3,Late
+PMT-1387,2024-09-13,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Bauxite,Australia,23300,8,0.0,4,Delivered
+PMT-1388,2024-09-14,Port Qasim,Sindh,Hyderabad,Iron Ore,Australia,31500,12,0.15,5,Delivered
+PMT-1389,2024-09-14,Karachi Port,Punjab,Faisalabad,Coal,Afghanistan,39900,17,0.15,4,Delivered
+PMT-1390,2024-09-15,Karachi Port,Khyber Pakhtunkhwa,Abbottabad,Bauxite,Guinea,22300,20,0.15,5,Delivered
+PMT-1391,2024-09-15,Karachi Port,Sindh,Karachi,Coal,Indonesia,42200,3,0.05,2,Cancelled
+PMT-1392,2024-09-16,Karachi Port,Sindh,Karachi,Coal,Afghanistan,45900,9,0.05,2,Delivered
+PMT-1393,2024-09-17,Port Qasim,Sindh,Karachi,Rock Phosphate,Morocco,40200,4,0.0,5,Delivered
+PMT-1394,2024-09-18,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Bauxite,Australia,22600,24,0.2,4,Delivered
+PMT-1395,2024-09-19,Karachi Port,Punjab,Rawalpindi,Coal,Indonesia,40700,2,0.05,2,Late
+PMT-1396,2024-09-20,Karachi Port,Punjab,Faisalabad,Rock Phosphate,Jordan,45600,13,0.1,4,Delivered
+PMT-1397,2024-09-21,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Soda Ash,Turkey,49800,10,0.0,4,Delivered
+PMT-1398,2024-09-21,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Bauxite,Australia,22500,7,0.0,2,Cancelled
+PMT-1399,2024-09-21,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Iron Ore,Brazil,31600,13,0.2,2,Delivered
+PMT-1400,2024-09-21,Port Qasim,Sindh,Karachi,Iron Ore,Brazil,27400,5,0.0,1,Late
+PMT-1401,2024-09-21,Port Qasim,Punjab,Rawalpindi,Bauxite,Australia,21900,4,0.0,1,Cancelled
+PMT-1402,2024-09-23,Karachi Port,Punjab,Rawalpindi,Coal,Indonesia,47800,3,0.05,3,Delivered
+PMT-1403,2024-09-23,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Bauxite,Guinea,20200,18,0.1,5,Delivered
+PMT-1404,2024-09-23,Port Qasim,Sindh,Karachi,Bauxite,Australia,24100,15,0.2,2,Delivered
+PMT-1405,2024-09-23,Karachi Port,Punjab,Faisalabad,Copper Concentrate,Chile,216100,3,0.05,1,Cancelled
+PMT-1406,2024-09-24,Karachi Port,Sindh,Karachi,Coal,Indonesia,43200,13,0.05,4,Delivered
+PMT-1407,2024-09-25,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Copper Concentrate,Peru,215500,17,0.05,1,Late
+PMT-1408,2024-09-25,Karachi Port,Punjab,Faisalabad,Copper Concentrate,Peru,244400,2,0.0,3,Delivered
+PMT-1409,2024-09-26,Port Qasim,Khyber Pakhtunkhwa,Abbottabad,Soda Ash,Turkey,48000,15,0.1,4,Delivered
+PMT-1410,2024-09-27,Port Qasim,Punjab,Rawalpindi,Copper Concentrate,Peru,234500,12,0.05,3,Delivered
+PMT-1411,2024-09-28,Port Qasim,Punjab,Lahore,Coal,Afghanistan,44200,16,0.15,4,Delivered
+PMT-1412,2024-09-29,Port Qasim,Sindh,Karachi,Rock Phosphate,Jordan,45300,12,0.2,4,Delivered
+PMT-1413,2024-09-29,Karachi Port,Khyber Pakhtunkhwa,Abbottabad,Bauxite,Australia,21900,5,0.05,5,Delivered
+PMT-1414,2024-09-29,Port Qasim,Sindh,Karachi,Rock Phosphate,Jordan,42700,6,0.0,5,Delivered
+PMT-1415,2024-09-29,Karachi Port,Punjab,Rawalpindi,Soda Ash,Turkey,44000,10,0.05,4,Delivered
+PMT-1416,2024-09-30,Karachi Port,Sindh,Karachi,Coal,South Africa,45600,7,0.0,4,Delivered
+PMT-1417,2024-09-30,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Iron Ore,Australia,26100,9,0.0,1,Cancelled
+PMT-1418,2024-09-30,Karachi Port,Punjab,Rawalpindi,Coal,South Africa,39900,4,0.0,3,Delivered
+PMT-1419,2024-10-02,Gwadar Port,Balochistan,Gwadar,Copper Concentrate,Chile,235200,7,0.05,4,Delivered
+PMT-1420,2024-10-03,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Bauxite,Guinea,23500,6,0.0,5,Delivered
+PMT-1421,2024-10-03,Karachi Port,Balochistan,Quetta,Soda Ash,Turkey,42800,9,0.0,4,Delivered
+PMT-1422,2024-10-04,Karachi Port,Sindh,Hyderabad,Bauxite,Guinea,23800,9,0.0,4,Delivered
+PMT-1423,2024-10-05,Gwadar Port,Balochistan,Quetta,Soda Ash,Turkey,51400,4,0.0,3,Delivered
+PMT-1424,2024-10-05,Karachi Port,Balochistan,Gwadar,Soda Ash,Turkey,41500,5,0.05,3,Late
+PMT-1425,2024-10-07,Port Qasim,Sindh,Karachi,Soda Ash,Turkey,47400,13,0.15,4,Delivered
+PMT-1426,2024-10-08,Karachi Port,Punjab,Rawalpindi,Coal,Indonesia,46700,5,0.0,3,Delivered
+PMT-1427,2024-10-08,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Copper Concentrate,Chile,220000,4,0.05,5,Delivered
+PMT-1428,2024-10-08,Port Qasim,Sindh,Karachi,Coal,Indonesia,39400,3,0.05,3,Late
+PMT-1429,2024-10-10,Karachi Port,Punjab,Rawalpindi,Coal,Indonesia,39900,10,0.0,5,Delivered
+PMT-1430,2024-10-11,Karachi Port,Punjab,Rawalpindi,Bauxite,Guinea,24300,7,0.0,3,Delivered
+PMT-1431,2024-10-11,Karachi Port,Punjab,Rawalpindi,Iron Ore,Australia,27000,6,0.05,2,Delivered
+PMT-1432,2024-10-11,Karachi Port,Punjab,Lahore,Bauxite,Australia,23500,10,0.0,5,Delivered
+PMT-1433,2024-10-12,Karachi Port,Balochistan,Quetta,Coal,Afghanistan,44200,3,0.05,2,Late
+PMT-1434,2024-10-12,Gwadar Port,Balochistan,Quetta,Bauxite,Guinea,20800,4,0.0,4,Delivered
+PMT-1435,2024-10-12,Karachi Port,Punjab,Faisalabad,Iron Ore,Brazil,31900,10,0.0,4,Delivered
+PMT-1436,2024-10-13,Karachi Port,Punjab,Rawalpindi,Copper Concentrate,Chile,207500,14,0.05,3,Cancelled
+PMT-1437,2024-10-13,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Copper Concentrate,Chile,236000,9,0.0,4,Delivered
+PMT-1438,2024-10-13,Port Qasim,Punjab,Faisalabad,Coal,Afghanistan,46900,18,0.2,4,Delivered
+PMT-1439,2024-10-14,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Bauxite,Australia,22800,3,0.0,2,Late
+PMT-1440,2024-10-14,Port Qasim,Punjab,Multan,Iron Ore,Brazil,28300,5,0.05,3,Delivered
+PMT-1441,2024-10-14,Port Qasim,Punjab,Faisalabad,Copper Concentrate,Peru,217100,8,0.05,5,Delivered
+PMT-1442,2024-10-15,Port Qasim,Punjab,Multan,Bauxite,Guinea,20800,10,0.05,5,Delivered
+PMT-1443,2024-10-16,Port Qasim,Sindh,Karachi,Soda Ash,Turkey,46300,40,0.05,4,Delivered
+PMT-1444,2024-10-16,Port Qasim,Punjab,Rawalpindi,Bauxite,Guinea,20000,17,0.05,2,Late
+PMT-1445,2024-10-16,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Soda Ash,Turkey,50400,5,0.05,3,Late
+PMT-1446,2024-10-16,Port Qasim,Punjab,Rawalpindi,Soda Ash,China,48400,3,0.05,5,Delivered
+PMT-1447,2024-10-17,Karachi Port,Balochistan,Quetta,Bauxite,Australia,23800,38,0.05,5,Delivered
+PMT-1448,2024-10-18,Gwadar Port,Balochistan,Quetta,Rock Phosphate,Jordan,39600,7,0.0,3,Delivered
+PMT-1449,2024-10-18,Port Qasim,Sindh,Karachi,Soda Ash,Turkey,46800,7,0.05,3,Late
+PMT-1450,2024-10-18,Karachi Port,Sindh,Karachi,Rock Phosphate,Morocco,38200,3,0.05,5,Delivered
+PMT-1451,2024-10-18,Port Qasim,Punjab,Lahore,Copper Concentrate,Peru,203400,3,0.0,2,Late
+PMT-1452,2024-10-19,Karachi Port,Sindh,Karachi,Copper Concentrate,Chile,222800,9,0.05,2,Late
+PMT-1453,2024-10-19,Port Qasim,Punjab,Multan,Coal,Indonesia,48100,3,0.05,4,Delivered
+PMT-1454,2024-10-20,Karachi Port,Balochistan,Gwadar,Rock Phosphate,Jordan,46400,5,0.05,4,Delivered
+PMT-1455,2024-10-20,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Bauxite,Australia,22300,3,0.05,3,Delivered
+PMT-1456,2024-10-20,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Bauxite,Australia,22600,7,0.05,3,Delivered
+PMT-1457,2024-10-20,Port Qasim,Punjab,Rawalpindi,Bauxite,Guinea,20100,6,0.05,5,Delivered
+PMT-1458,2024-10-20,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Copper Concentrate,Chile,249300,16,0.15,1,Cancelled
+PMT-1459,2024-10-21,Karachi Port,Punjab,Rawalpindi,Bauxite,Guinea,21800,8,0.05,1,Cancelled
+PMT-1460,2024-10-21,Karachi Port,Punjab,Lahore,Rock Phosphate,Morocco,40800,2,0.0,2,Late
+PMT-1461,2024-10-23,Port Qasim,Punjab,Faisalabad,Iron Ore,Australia,26600,7,0.05,3,Delivered
+PMT-1462,2024-10-23,Karachi Port,Punjab,Faisalabad,Copper Concentrate,Chile,237900,25,0.15,3,Delivered
+PMT-1463,2024-10-24,Karachi Port,Balochistan,Quetta,Bauxite,Guinea,22200,11,0.05,4,Delivered
+PMT-1464,2024-10-25,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Iron Ore,Australia,29900,2,0.05,4,Delivered
+PMT-1465,2024-10-25,Port Qasim,Punjab,Multan,Copper Concentrate,Chile,211400,7,0.0,5,Delivered
+PMT-1466,2024-10-25,Karachi Port,Sindh,Karachi,Rock Phosphate,Jordan,42400,9,0.0,2,Late
+PMT-1467,2024-10-25,Karachi Port,Sindh,Karachi,Copper Concentrate,Peru,244600,9,0.0,5,Delivered
+PMT-1468,2024-10-25,Port Qasim,Punjab,Multan,Rock Phosphate,Morocco,38800,5,0.05,2,Late
+PMT-1469,2024-10-26,Karachi Port,Punjab,Multan,Coal,Afghanistan,46300,5,0.0,5,Delivered
+PMT-1470,2024-10-26,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Coal,Indonesia,46600,9,0.0,4,Delivered
+PMT-1471,2024-10-26,Karachi Port,Punjab,Multan,Soda Ash,Turkey,50300,2,0.05,5,Delivered
+PMT-1472,2024-10-27,Port Qasim,Punjab,Rawalpindi,Soda Ash,Turkey,49000,8,0.0,1,Cancelled
+PMT-1473,2024-10-27,Port Qasim,Punjab,Multan,Bauxite,Guinea,20300,6,0.05,4,Delivered
+PMT-1474,2024-10-27,Port Qasim,Punjab,Lahore,Soda Ash,Turkey,45900,5,0.05,4,Delivered
+PMT-1475,2024-10-28,Karachi Port,Punjab,Multan,Rock Phosphate,Jordan,45600,39,0.2,5,Delivered
+PMT-1476,2024-10-28,Karachi Port,Balochistan,Quetta,Rock Phosphate,Morocco,39900,5,0.0,4,Late
+PMT-1477,2024-10-28,Port Qasim,Punjab,Faisalabad,Coal,South Africa,46200,11,0.1,3,Late
+PMT-1478,2024-10-28,Port Qasim,Punjab,Faisalabad,Iron Ore,Brazil,28900,6,0.0,3,Late
+PMT-1479,2024-10-29,Port Qasim,Sindh,Karachi,Iron Ore,Australia,27400,18,0.2,3,Delivered
+PMT-1480,2024-10-30,Port Qasim,Sindh,Karachi,Coal,Afghanistan,46700,3,0.05,4,Delivered
+PMT-1481,2024-10-31,Karachi Port,Balochistan,Gwadar,Bauxite,Guinea,23200,10,0.0,5,Delivered
+PMT-1482,2024-11-01,Karachi Port,Punjab,Multan,Copper Concentrate,Peru,235000,7,0.0,5,Delivered
+PMT-1483,2024-11-01,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Coal,South Africa,43500,7,0.0,3,Delivered
+PMT-1484,2024-11-02,Port Qasim,Sindh,Hyderabad,Soda Ash,China,43400,18,0.1,3,Late
+PMT-1485,2024-11-03,Karachi Port,Punjab,Multan,Bauxite,Guinea,20400,4,0.05,3,Late
+PMT-1486,2024-11-03,Karachi Port,Balochistan,Gwadar,Rock Phosphate,Morocco,40800,4,0.0,4,Late
+PMT-1487,2024-11-03,Karachi Port,Balochistan,Quetta,Iron Ore,Brazil,28800,10,0.0,2,Late
+PMT-1488,2024-11-03,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Soda Ash,China,43800,2,0.0,4,Late
+PMT-1489,2024-11-04,Karachi Port,Balochistan,Quetta,Iron Ore,Brazil,31800,5,0.05,3,Late
+PMT-1490,2024-11-04,Karachi Port,Sindh,Hyderabad,Copper Concentrate,Peru,209800,6,0.05,1,Late
+PMT-1491,2024-11-05,Port Qasim,Sindh,Hyderabad,Copper Concentrate,Chile,216400,2,0.0,5,Delivered
+PMT-1492,2024-11-06,Karachi Port,Sindh,Hyderabad,Copper Concentrate,Chile,218200,3,0.0,1,Late
+PMT-1493,2024-11-06,Karachi Port,Punjab,Faisalabad,Soda Ash,Turkey,49600,7,0.05,2,Late
+PMT-1494,2024-11-07,Karachi Port,Punjab,Lahore,Soda Ash,China,42200,18,0.15,5,Delivered
+PMT-1495,2024-11-07,Karachi Port,Sindh,Karachi,Soda Ash,China,50100,32,0.2,5,Delivered
+PMT-1496,2024-11-07,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Coal,South Africa,39000,10,0.05,4,Delivered
+PMT-1497,2024-11-07,Karachi Port,Khyber Pakhtunkhwa,Abbottabad,Iron Ore,Brazil,32000,13,0.2,3,Delivered
+PMT-1498,2024-11-08,Karachi Port,Balochistan,Quetta,Rock Phosphate,Jordan,41600,6,0.05,3,Delivered
+PMT-1499,2024-11-09,Port Qasim,Sindh,Karachi,Copper Concentrate,Chile,217100,16,0.05,4,Delivered
+PMT-1500,2024-11-09,Karachi Port,Punjab,Lahore,Bauxite,Australia,23500,7,0.0,2,Delivered
+PMT-1501,2024-11-11,Karachi Port,Punjab,Multan,Copper Concentrate,Peru,215700,14,0.2,3,Delivered
+PMT-1502,2024-11-11,Port Qasim,Punjab,Rawalpindi,Soda Ash,China,47100,2,0.0,4,Delivered
+PMT-1503,2024-11-11,Port Qasim,Sindh,Karachi,Bauxite,Guinea,22200,6,0.0,4,Late
+PMT-1504,2024-11-11,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Iron Ore,Brazil,27800,4,0.05,4,Delivered
+PMT-1505,2024-11-12,Karachi Port,Sindh,Karachi,Rock Phosphate,Morocco,46000,18,0.2,5,Delivered
+PMT-1506,2024-11-12,Karachi Port,Punjab,Lahore,Coal,South Africa,44700,3,0.0,3,Delivered
+PMT-1507,2024-11-12,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Iron Ore,Brazil,32200,9,0.0,4,Delivered
+PMT-1508,2024-11-13,Port Qasim,Punjab,Faisalabad,Copper Concentrate,Chile,249100,37,0.15,3,Delivered
+PMT-1509,2024-11-13,Port Qasim,Punjab,Lahore,Rock Phosphate,Jordan,40600,9,0.05,5,Delivered
+PMT-1510,2024-11-15,Karachi Port,Sindh,Karachi,Copper Concentrate,Chile,213600,6,0.0,3,Late
+PMT-1511,2024-11-16,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Copper Concentrate,Chile,210400,5,0.0,4,Delivered
+PMT-1512,2024-11-16,Karachi Port,Punjab,Rawalpindi,Coal,Afghanistan,45600,27,0.15,3,Late
+PMT-1513,2024-11-16,Karachi Port,Balochistan,Quetta,Rock Phosphate,Morocco,42300,3,0.05,5,Delivered
+PMT-1514,2024-11-17,Port Qasim,Punjab,Rawalpindi,Coal,Afghanistan,48000,11,0.2,4,Delivered
+PMT-1515,2024-11-17,Port Qasim,Sindh,Hyderabad,Bauxite,Guinea,20300,17,0.15,4,Delivered
+PMT-1516,2024-11-17,Port Qasim,Sindh,Karachi,Bauxite,Australia,21900,9,0.05,5,Delivered
+PMT-1517,2024-11-18,Karachi Port,Balochistan,Quetta,Iron Ore,Brazil,29600,13,0.2,3,Delivered
+PMT-1518,2024-11-19,Port Qasim,Khyber Pakhtunkhwa,Peshawar,Coal,South Africa,40700,8,0.05,5,Delivered
+PMT-1519,2024-11-19,Port Qasim,Punjab,Lahore,Coal,South Africa,38800,3,0.05,4,Delivered
+PMT-1520,2024-11-19,Port Qasim,Sindh,Karachi,Coal,Indonesia,39800,7,0.05,4,Delivered
+PMT-1521,2024-11-20,Port Qasim,Sindh,Karachi,Soda Ash,China,44200,9,0.05,3,Delivered
+PMT-1522,2024-11-20,Port Qasim,Punjab,Faisalabad,Coal,South Africa,43400,12,0.1,5,Delivered
+PMT-1523,2024-11-21,Gwadar Port,Balochistan,Gwadar,Soda Ash,China,49800,3,0.0,4,Delivered
+PMT-1524,2024-11-21,Gwadar Port,Balochistan,Quetta,Bauxite,Australia,22600,2,0.05,3,Delivered
+PMT-1525,2024-11-21,Karachi Port,Punjab,Lahore,Iron Ore,Brazil,31700,3,0.05,3,Cancelled
+PMT-1526,2024-11-21,Karachi Port,Sindh,Hyderabad,Coal,South Africa,46300,2,0.05,4,Delivered
+PMT-1527,2024-11-22,Karachi Port,Punjab,Faisalabad,Rock Phosphate,Morocco,44500,7,0.0,4,Delivered
+PMT-1528,2024-11-22,Karachi Port,Sindh,Sukkur,Bauxite,Guinea,23300,10,0.0,2,Late
+PMT-1529,2024-11-22,Port Qasim,Sindh,Hyderabad,Rock Phosphate,Jordan,46700,7,0.05,4,Delivered
+PMT-1530,2024-11-24,Karachi Port,Punjab,Rawalpindi,Coal,Indonesia,39600,29,0.15,3,Late
+PMT-1531,2024-11-24,Port Qasim,Punjab,Rawalpindi,Bauxite,Australia,22000,4,0.0,2,Cancelled
+PMT-1532,2024-11-25,Karachi Port,Sindh,Karachi,Bauxite,Guinea,20100,4,0.0,1,Cancelled
+PMT-1533,2024-11-26,Port Qasim,Punjab,Rawalpindi,Rock Phosphate,Jordan,44700,4,0.05,1,Late
+PMT-1534,2024-11-26,Gwadar Port,Balochistan,Gwadar,Copper Concentrate,Chile,238200,31,0.2,2,Late
+PMT-1535,2024-11-27,Karachi Port,Sindh,Karachi,Rock Phosphate,Jordan,39200,3,0.0,1,Cancelled
+PMT-1536,2024-11-29,Port Qasim,Punjab,Rawalpindi,Rock Phosphate,Jordan,43100,10,0.05,2,Late
+PMT-1537,2024-11-29,Port Qasim,Punjab,Lahore,Rock Phosphate,Morocco,39200,14,0.05,1,Late
+PMT-1538,2024-11-30,Karachi Port,Punjab,Lahore,Soda Ash,China,44800,6,0.0,2,Delivered
+PMT-1539,2024-12-01,Port Qasim,Sindh,Karachi,Soda Ash,China,48100,37,0.15,2,Cancelled
+PMT-1540,2024-12-01,Port Qasim,Sindh,Karachi,Coal,Afghanistan,45400,13,0.15,5,Delivered
+PMT-1541,2024-12-01,Karachi Port,Sindh,Karachi,Iron Ore,Brazil,30100,8,0.05,3,Delivered
+PMT-1542,2024-12-01,Karachi Port,Punjab,Rawalpindi,Rock Phosphate,Morocco,44700,7,0.0,5,Delivered
+PMT-1543,2024-12-03,Port Qasim,Punjab,Faisalabad,Coal,Afghanistan,43300,2,0.05,3,Delivered
+PMT-1544,2024-12-03,Karachi Port,Punjab,Lahore,Copper Concentrate,Chile,244000,21,0.2,2,Cancelled
+PMT-1545,2024-12-05,Karachi Port,Sindh,Sukkur,Bauxite,Guinea,19900,7,0.05,4,Delivered
+PMT-1546,2024-12-05,Karachi Port,Punjab,Faisalabad,Bauxite,Australia,21900,4,0.05,5,Delivered
+PMT-1547,2024-12-06,Port Qasim,Punjab,Multan,Bauxite,Guinea,22400,8,0.05,5,Delivered
+PMT-1548,2024-12-06,Port Qasim,Punjab,Faisalabad,Rock Phosphate,Morocco,45500,17,0.2,3,Delivered
+PMT-1549,2024-12-06,Karachi Port,Sindh,Karachi,Rock Phosphate,Jordan,38800,4,0.05,5,Delivered
+PMT-1550,2024-12-07,Karachi Port,Punjab,Faisalabad,Soda Ash,Turkey,47600,13,0.1,5,Delivered
+PMT-1551,2024-12-07,Port Qasim,Sindh,Karachi,Copper Concentrate,Chile,214700,8,0.05,5,Delivered
+PMT-1552,2024-12-08,Karachi Port,Balochistan,Gwadar,Bauxite,Guinea,21800,6,0.0,3,Delivered
+PMT-1553,2024-12-08,Karachi Port,Punjab,Lahore,Rock Phosphate,Morocco,41800,5,0.05,3,Delivered
+PMT-1554,2024-12-08,Karachi Port,Punjab,Lahore,Soda Ash,China,50900,2,0.0,4,Delivered
+PMT-1555,2024-12-09,Karachi Port,Sindh,Karachi,Iron Ore,Brazil,26800,30,0.1,2,Delivered
+PMT-1556,2024-12-10,Karachi Port,Balochistan,Quetta,Bauxite,Australia,21400,5,0.05,3,Delivered
+PMT-1557,2024-12-10,Port Qasim,Punjab,Rawalpindi,Coal,Afghanistan,42000,4,0.05,4,Delivered
+PMT-1558,2024-12-13,Port Qasim,Sindh,Karachi,Iron Ore,Australia,29200,12,0.15,5,Delivered
+PMT-1559,2024-12-13,Karachi Port,Punjab,Faisalabad,Copper Concentrate,Chile,242800,4,0.0,4,Delivered
+PMT-1560,2024-12-13,Karachi Port,Sindh,Karachi,Iron Ore,Australia,31100,16,0.05,3,Delivered
+PMT-1561,2024-12-13,Karachi Port,Sindh,Hyderabad,Copper Concentrate,Peru,230100,6,0.0,4,Delivered
+PMT-1562,2024-12-13,Port Qasim,Sindh,Sukkur,Soda Ash,Turkey,45800,18,0.2,1,Late
+PMT-1563,2024-12-13,Port Qasim,Punjab,Rawalpindi,Coal,Indonesia,45500,3,0.0,4,Delivered
+PMT-1564,2024-12-14,Karachi Port,Balochistan,Gwadar,Coal,South Africa,43500,7,0.0,5,Delivered
+PMT-1565,2024-12-15,Gwadar Port,Balochistan,Quetta,Iron Ore,Australia,26800,13,0.2,3,Cancelled
+PMT-1566,2024-12-15,Karachi Port,Balochistan,Gwadar,Rock Phosphate,Jordan,38900,10,0.0,2,Late
+PMT-1567,2024-12-16,Karachi Port,Sindh,Karachi,Iron Ore,Australia,30500,33,0.2,2,Cancelled
+PMT-1568,2024-12-16,Karachi Port,Punjab,Rawalpindi,Bauxite,Guinea,22200,22,0.15,3,Late
+PMT-1569,2024-12-16,Karachi Port,Khyber Pakhtunkhwa,Abbottabad,Iron Ore,Brazil,26300,10,0.0,4,Delivered
+PMT-1570,2024-12-17,Karachi Port,Punjab,Rawalpindi,Bauxite,Australia,19800,34,0.05,3,Delivered
+PMT-1571,2024-12-18,Karachi Port,Punjab,Rawalpindi,Bauxite,Guinea,21800,20,0.15,5,Delivered
+PMT-1572,2024-12-18,Karachi Port,Punjab,Multan,Bauxite,Guinea,20300,7,0.05,4,Delivered
+PMT-1573,2024-12-18,Karachi Port,Balochistan,Gwadar,Rock Phosphate,Morocco,45600,3,0.0,2,Cancelled
+PMT-1574,2024-12-18,Karachi Port,Balochistan,Gwadar,Rock Phosphate,Morocco,42700,7,0.0,3,Delivered
+PMT-1575,2024-12-19,Karachi Port,Sindh,Karachi,Copper Concentrate,Chile,213400,8,0.0,3,Delivered
+PMT-1576,2024-12-20,Port Qasim,Sindh,Hyderabad,Coal,South Africa,47100,9,0.0,4,Delivered
+PMT-1577,2024-12-20,Port Qasim,Punjab,Multan,Bauxite,Guinea,21900,7,0.0,5,Delivered
+PMT-1578,2024-12-20,Karachi Port,Balochistan,Quetta,Coal,South Africa,40200,32,0.1,3,Delivered
+PMT-1579,2024-12-20,Port Qasim,Khyber Pakhtunkhwa,Abbottabad,Coal,South Africa,44100,12,0.15,5,Delivered
+PMT-1580,2024-12-21,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Coal,South Africa,43800,12,0.2,3,Delivered
+PMT-1581,2024-12-21,Port Qasim,Punjab,Rawalpindi,Rock Phosphate,Jordan,46000,15,0.15,5,Delivered
+PMT-1582,2024-12-22,Port Qasim,Punjab,Rawalpindi,Coal,South Africa,47900,11,0.2,3,Delivered
+PMT-1583,2024-12-22,Karachi Port,Punjab,Rawalpindi,Soda Ash,China,41500,6,0.0,2,Late
+PMT-1584,2024-12-23,Karachi Port,Punjab,Faisalabad,Bauxite,Guinea,20600,2,0.0,3,Delivered
+PMT-1585,2024-12-23,Port Qasim,Punjab,Faisalabad,Iron Ore,Australia,28100,8,0.05,5,Delivered
+PMT-1586,2024-12-23,Karachi Port,Sindh,Hyderabad,Copper Concentrate,Peru,209200,38,0.2,2,Late
+PMT-1587,2024-12-23,Karachi Port,Sindh,Hyderabad,Rock Phosphate,Morocco,44400,9,0.05,5,Delivered
+PMT-1588,2024-12-24,Port Qasim,Punjab,Lahore,Bauxite,Guinea,19800,9,0.0,4,Delivered
+PMT-1589,2024-12-24,Gwadar Port,Balochistan,Gwadar,Coal,South Africa,43500,4,0.0,5,Delivered
+PMT-1590,2024-12-24,Gwadar Port,Balochistan,Gwadar,Soda Ash,China,46800,18,0.2,2,Late
+PMT-1591,2024-12-25,Karachi Port,Punjab,Lahore,Rock Phosphate,Morocco,38900,5,0.0,3,Delivered
+PMT-1592,2024-12-25,Port Qasim,Sindh,Karachi,Bauxite,Australia,20400,11,0.05,5,Delivered
+PMT-1593,2024-12-25,Karachi Port,Balochistan,Quetta,Copper Concentrate,Peru,222800,5,0.05,4,Delivered
+PMT-1594,2024-12-26,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Soda Ash,China,50300,18,0.15,5,Delivered
+PMT-1595,2024-12-27,Karachi Port,Punjab,Faisalabad,Rock Phosphate,Jordan,40200,10,0.05,3,Delivered
+PMT-1596,2024-12-27,Karachi Port,Sindh,Karachi,Iron Ore,Brazil,30000,6,0.0,5,Delivered
+PMT-1597,2024-12-28,Karachi Port,Punjab,Rawalpindi,Copper Concentrate,Peru,232400,11,0.15,5,Delivered
+PMT-1598,2024-12-28,Port Qasim,Punjab,Rawalpindi,Coal,Indonesia,42300,10,0.05,3,Late
+PMT-1599,2024-12-28,Karachi Port,Punjab,Lahore,Rock Phosphate,Jordan,39200,2,0.0,4,Delivered
+PMT-1600,2024-12-31,Karachi Port,Khyber Pakhtunkhwa,Peshawar,Rock Phosphate,Morocco,46000,7,0.0,5,Delivered
