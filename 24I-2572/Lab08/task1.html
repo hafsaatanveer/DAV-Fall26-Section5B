@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAV Lab 8 - Task 1</title>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background: #f7f9fc;
+            color: #222;
+        }
+
+        h1 {
+            margin-bottom: 8px;
+        }
+
+        p {
+            color: #555;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px 8px 20px 0;
+            border: none;
+            border-radius: 6px;
+            background: #2563eb;
+            color: white;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+
+        button:disabled {
+            background: #64748b;
+            cursor: default;
+        }
+
+        #chart {
+            max-width: 100%;
+            overflow-x: auto;
+        }
+
+        .bar-label {
+            font-size: 13px;
+        }
+
+        .axis text {
+            font-size: 12px;
+        }
+
+        .axis path,
+        .axis line {
+            stroke: #aaa;
+        }
+
+        #status {
+            color: #b91c1c;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Top 10 Richest Countries</h1>
+    <p>GDP per Capita — Gapminder Dataset</p>
+
+    <button id="year1952">1952</button>
+    <button id="year2007">2007</button>
+
+    <p id="status">Loading dataset...</p>
+    <div id="chart"></div>
+
+    <script>
+        const width = 950;
+        const height = 480;
+
+        const margin = {
+            top: 20,
+            right: 100,
+            bottom: 55,
+            left: 150
+        };
+
+        const innerWidth = width - margin.left - margin.right;
+        const innerHeight = height - margin.top - margin.bottom;
+
+        const svg = d3.select("#chart")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        const chart = svg.append("g")
+            .attr("transform",
+                `translate(${margin.left},${margin.top})`);
+
+        const x = d3.scaleLinear()
+            .range([0, innerWidth]);
+
+        const y = d3.scaleBand()
+            .range([0, innerHeight])
+            .padding(0.2);
+
+        const color = d3.scaleOrdinal()
+            .domain([
+                "Asia",
+                "Europe",
+                "Africa",
+                "Americas",
+                "Oceania"
+            ])
+            .range([
+                "#f59e0b",
+                "#2563eb",
+                "#16a34a",
+                "#dc2626",
+                "#9333ea"
+            ]);
+
+            // Legend for continents
+const continents = [
+    "Asia", "Europe", "Africa", "Americas", "Oceania"
+];
+
+const legend = svg.append("g")
+    .attr("transform", "translate(1150, 25)");
+
+continents.forEach((continent, i) => {
+    legend.append("rect")
+        .attr("x", 0)
+        .attr("y", i * 25)
+        .attr("width", 14)
+        .attr("height", 14)
+        .attr("fill", color(continent));
+
+    legend.append("text")
+        .attr("x", 20)
+        .attr("y", i * 25 + 12)
+        .attr("font-size", 12)
+        .text(continent);
+});
+        const xAxis = chart.append("g")
+            .attr("transform", `translate(0,${innerHeight})`);
+
+        const yAxis = chart.append("g");
+
+        chart.append("text")
+            .attr("x", innerWidth / 2)
+            .attr("y", innerHeight + 45)
+            .attr("text-anchor", "middle")
+            .attr("font-size", 14)
+            .text("GDP per Capita ($)");
+
+        let currentYear = 2007;
+        let allData = [];
+
+        function updateChart(year) {
+            currentYear = year;
+
+            const data = allData
+                .filter(d => d.year === year)
+                .filter(d => Number.isFinite(d.gdpPercap))
+                .sort((a, b) => b.gdpPercap - a.gdpPercap)
+                .slice(0, 10);
+
+            if (data.length === 0) {
+                d3.select("#status")
+                    .text("No data found for " + year);
+                return;
+            }
+
+            d3.select("#status")
+                .text("Showing the 10 richest countries in " + year);
+
+            x.domain([0, d3.max(data, d => d.gdpPercap) * 1.15]);
+
+            y.domain(data.map(d => d.country));
+
+            xAxis.transition()
+                .duration(800)
+                .call(d3.axisBottom(x).ticks(6));
+
+            yAxis.transition()
+                .duration(800)
+                .call(d3.axisLeft(y));
+
+            const bars = chart.selectAll(".bar")
+                .data(data, d => d.country);
+
+            bars.exit()
+                .transition()
+                .duration(400)
+                .attr("width", 0)
+                .remove();
+
+            const newBars = bars.enter()
+                .append("rect")
+                .attr("class", "bar")
+                .attr("x", 0)
+                .attr("width", 0)
+                .attr("y", d => y(d.country))
+                .attr("height", y.bandwidth())
+                .attr("fill", d => color(d.continent));
+
+            newBars.append("title");
+
+            const mergedBars = newBars.merge(bars);
+
+            mergedBars
+                .attr("fill", d => color(d.continent))
+                .select("title")
+                .text(d =>
+                    `${d.country} (${d.continent}): $${d3.format(",.0f")(d.gdpPercap)}`
+                );
+
+            mergedBars.transition()
+                .duration(800)
+                .attr("y", d => y(d.country))
+                .attr("height", y.bandwidth())
+                .attr("width", d => x(d.gdpPercap));
+
+            const labels = chart.selectAll(".value-label")
+                .data(data, d => d.country);
+
+            labels.exit().remove();
+
+            labels.enter()
+                .append("text")
+                .attr("class", "value-label")
+                .merge(labels)
+                .transition()
+                .duration(800)
+                .attr("x", d => x(d.gdpPercap) + 6)
+                .attr("y", d => y(d.country) + y.bandwidth() / 2)
+                .attr("dy", "0.35em")
+                .attr("font-size", 12)
+                .text(d => d3.format(",.0f")(d.gdpPercap));
+        }
+
+        d3.csv("gapminder.csv", d3.autoType)
+            .then(data => {
+                allData = data;
+
+                console.log("Dataset loaded:", allData.length, "rows");
+                console.log("Columns:", allData.columns);
+
+                updateChart(2007);
+            })
+            .catch(error => {
+                console.error("Dataset loading error:", error);
+
+                d3.select("#status")
+                    .text("Could not load gapminder.csv. Check the file location and browser Console.");
+            });
+
+        d3.select("#year1952")
+            .on("click", () => updateChart(1952));
+
+        d3.select("#year2007")
+            .on("click", () => updateChart(2007));
+    </script>
+
+</body>
+</html>
