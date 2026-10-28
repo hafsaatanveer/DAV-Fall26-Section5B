@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab 9 - Hierarchy, Network and Maps (24I-2572)</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #222;
+      margin: 20px 40px;
+    }
+    h1 { margin-bottom: 4px; }
+    .task {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 16px;
+      margin: 24px 0;
+      background: #fafafa;
+    }
+    .task h2 { margin: 0 0 4px 0; }
+    .task p  { margin: 0 0 10px 0; color: #555; }
+    svg { background: #ffffff; border: 1px solid #eee; }
+
+    /* one shared tooltip for all charts */
+    .tooltip {
+      position: absolute;
+      background: #ffffff;
+      border: 1px solid #999;
+      border-radius: 4px;
+      padding: 6px 10px;
+      font-size: 13px;
+      pointer-events: none;
+      opacity: 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Lab 9: Hierarchical, Network and Geospatial Visualization</h1>
+  <p>24I-2572 &middot; DS-5B</p>
+
+  <div class="task">
+    <h2>Task 1: Course Enrollment Treemap</h2>
+    <p>Area of each rectangle = number of students. Color = department.</p>
+    <div id="task1"></div>
+  </div>
+
+  <div class="task">
+    <h2>Task 2: University Structure Dendrogram</h2>
+    <p>Click a department circle to collapse / expand its courses.</p>
+    <div id="task2"></div>
+  </div>
+
+  <div class="task">
+    <h2>Task 3: Flight Route Network</h2>
+    <p>Line width = flights per week. Circle size = number of routes. Drag the cities; hover to highlight routes.</p>
+    <div id="task3"></div>
+  </div>
+
+  <div class="task">
+    <h2>Task 4: World Population Choropleth</h2>
+    <p>Countries colored by population (square-root scale). Gray = no data.</p>
+    <div id="task4"></div>
+  </div>
+
+  <div class="task">
+    <h2>Task 5: Pakistan Cities Point Map</h2>
+    <p>Circle area = city population (millions).</p>
+    <div id="task5"></div>
+  </div>
+
+  <div class="task">
+    <h2>Task 6: Combined Spatial Encoding Map</h2>
+    <p>Cities, their population and the flight routes between them.</p>
+    <div id="task6"></div>
+  </div>
+
+  <!-- shared tooltip -->
+  <div class="tooltip" id="tooltip"></div>
+
+  <script src="js/task1.js"></script>
+  <script src="js/task2.js"></script>
+  <script src="js/task3.js"></script>
+  <script src="js/task4.js"></script>
+  <script src="js/task5.js"></script>
+  <script src="js/task6.js"></script>
+</body>
+</html>
